@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+   font-family: 'Nunito', 'sans-serif';
+   margin: 0px;
+}
+
+:root {
+    --primary-color: #059669;
+    --secondary-color: #2ecc71;
+}
+
+
+/* Navigation bar */
+.nav {
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    margin: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+/* Text-Area */
+.text-area-div {
+    text-align: center;
+}
+
+.text-area {
+    resize: none;
+    height: 200px;
+    width: 600px;
+    border: 5px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+
+
+/* Translate Button */ 
+ #btn-translate {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FBBF24;
+    box-shadow: none;
+    font-size: large;
+    font-family: 'Nunito', 'sans-serif';
+    padding: 0.5rem;
+    border: none;
+      opacity: 0.6;
+
+}
+
+#btn-translate:hover {opacity: 1}
+
+
+/* .btn {
+    background-color: transparent;
+    outline:0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-square {
+    border:0;
+}
+
+.btn-filled-green {
+    color: var(--secondary-color);
+} */
+
+/* Center div */
+.center{
+    position: fixed;
+    left: 48%;
+}
+
+/* Output Area */
+.output-area {
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 5px solid var(--primary-color);
+    height: 200px;
+    width: 600px;
+    margin: auto;
+}
+
+/* Label */
+
+.form-input-label {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  color: #1a73e8;
+  font-size: 0.85rem;
+  padding-right: 0.33rem;
+  padding-left: 0.33rem;
+  background: #fff;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+/* Footer */
+
+.footer{
+        position:absolute;
+        bottom:0;
+        width:100%;
+        height:60px;   /* Height of the footer */
+        background:var(--primary-color);
+        text-align: center;
+        border-radius: 10px;
+}
