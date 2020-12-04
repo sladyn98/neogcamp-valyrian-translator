@@ -4,6 +4,9 @@
 body{
    font-family: 'Nunito', 'sans-serif';
    margin: 0px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
 }
 
 :root {
@@ -54,20 +57,6 @@ body{
 
 #btn-translate:hover {opacity: 1}
 
-
-/* .btn {
-    background-color: transparent;
-    outline:0;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.btn-square {
-    border:0;
-}
-
-.btn-filled-green {
-    color: var(--secondary-color);
-} */
 
 /* Center div */
 .center{
